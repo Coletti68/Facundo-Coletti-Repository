@@ -1,6 +1,16 @@
 {
+  "name": "gestionalumnos",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Facundo Coletti",
+  "license": "ISC",
+  "description": "App de escritorio para gestión de alumnos en gimnasio",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
